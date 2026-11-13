@@ -16,7 +16,7 @@ function demo(prefix, n, videoAt = -1) {
   return Array.from({ length: n }, (_, i) => ({
     id: `${prefix}-${i + 1}`,
     type: i === videoAt ? 'video' : 'image',
-    src: '',            // e.g. 'assets/images/beach.jpg' or 'assets/videos/trip.mp4'
+    src: '',            // e.g. 'assets/images/beach.jpg' or 'assets/videos/trip.MP4'
     thumb: '',          // optional poster for videos
     title: i === videoAt ? 'Video memory title' : `Memory title ${i + 1}`,
     caption: 'Your caption goes here.',
@@ -47,112 +47,112 @@ const CONFIG = {
     {
       id: 'adv-1',
       type: 'image',
-      src: 'assets/images/3.jpeg',
+      src: 'assets/images/3.JPEG',
       title: 'TCH Balamban',
       caption: 'One of our first rides together. Little did we know, this was just the beginning of so many adventures. ❤️'
     },
     {
       id: 'adv-2',
       type: 'image',
-      src: 'assets/images/4.jpeg',
+      src: 'assets/images/4.JPEG',
       title: 'Toledo Beach',
       caption: 'A little beach outing with your family. Simple days like this are always worth remembering.'
     },
     {
       id: 'adv-3',
       type: 'video',
-      src: 'assets/videos/5.mp4',
+      src: 'assets/videos/5.MP4',
       title: 'Negros Trip',
       caption: 'Our longest drive together! HAHAHA. Long roads feel a lot shorter when I have you with me.'
     },
     {
       id: 'adv-4',
       type: 'image',
-      src: 'assets/images/7.jpeg',
+      src: 'assets/images/7.JPEG',
       title: 'Random Moments',
       caption: 'Nothing beats fresh coconut after a long, exhausting walk. HAHAHA. We really needed that one!'
     },
     {
       id: 'adv-5',
       type: 'video',
-      src: 'assets/videos/6.mp4',
+      src: 'assets/videos/6.MP4',
       title: 'Negros Lake',
       caption: 'One of the most exciting places we visited together. Definitely a memory I would love to experience again!'
     },
     {
       id: 'adv-6',
       type: 'image',
-      src: 'assets/images/8.jpeg',
+      src: 'assets/images/8.JPEG',
       title: 'Our First Bohol Trip',
       caption: 'Our first time in Bohol together, and also one of the most special days of my life. This trip will always have a special place in my heart. ❤️'
     },
     {
       id: 'adv-7',
       type: 'video',
-      src: 'assets/videos/9.mp4',
+      src: 'assets/videos/9.MP4',
       title: 'Purisima Mountain View',
       caption: 'Our first mountain-view adventure together! Beautiful views, good food, and of course, my favorite person.'
     },
     {
       id: 'adv-8',
       type: 'video',
-      src: 'assets/videos/10.mp4',
+      src: 'assets/videos/10.MP4',
       title: 'Beach Day',
       caption: 'A family outing at a place we never expected to visit. HAHAHA. Sometimes the unplanned trips turn into the best memories.'
     },
     {
       id: 'adv-9',
       type: 'image',
-      src: 'assets/images/11.jpeg',
+      src: 'assets/images/11.JPEG',
       title: 'Man-Made Forest',
       caption: 'Our second time in Bohol, but our first time visiting the Man-Made Forest together. Another place checked off our list! ❤️'
     },
     {
       id: 'adv-10',
       type: 'image',
-      src: 'assets/images/12.jpeg',
+      src: 'assets/images/12.JPEG',
       title: 'Chocolate Hills',
       caption: '214 steps with you! HAHAHA. All that climbing was worth it, especially because I got to experience it with you.'
     },
     {
       id: 'adv-11',
       type: 'image',
-      src: 'assets/images/13.jpeg',
+      src: 'assets/images/13.JPEG',
       title: 'Our Third Bohol Trip',
       caption: 'HAHAHA, trying to act normal, but we were actually so excited! Third time in Bohol, and still making new memories.'
     },
     {
       id: 'adv-12',
       type: 'video',
-      src: 'assets/videos/14.mp4',
+      src: 'assets/videos/14.MP4',
       title: 'ATV Ride at Chocolate Hills',
       caption: 'Your first time driving an ATV! I was so proud of you, baby. HAHAHA. Btw, this video is 2 minutes long, so feel free to skip ahead!'
     },
     {
       id: 'adv-13',
       type: 'image',
-      src: 'assets/images/15.jpeg',
+      src: 'assets/images/15.JPEG',
       title: 'Panglao Kartways',
       caption: 'You were so nervous at first, HAHAHA! But seeing you enjoy it afterward made me so happy.'
     },
     {
       id: 'adv-14',
       type: 'image',
-      src: 'assets/images/16.jpeg',
+      src: 'assets/images/16.JPEG',
       title: 'Hinagdanan Cave',
       caption: 'Such a breathtaking place. Another beautiful experience I am glad we got to share together.'
     },
     {
       id: 'adv-15',
       type: 'image',
-      src: 'assets/images/17.jpeg',
+      src: 'assets/images/17.JPEG',
       title: 'Sikatuna',
       caption: 'I still remember how beautiful you looked that day. Well, you always do, but this one deserves its own appreciation. HAHAHA. ❤️'
     },
     {
       id: 'adv-16',
       type: 'image',
-      src: 'assets/images/18.jpeg',
+      src: 'assets/images/18.JPEG',
       title: 'Badian Lambug Beach',
       caption: 'Another unexpected adventure, this time with your best friend! HAHAHA. I love how our random plans turn into memories worth keeping.'
     },
@@ -162,91 +162,91 @@ const CONFIG = {
       {
         id: 'forever-1',
         type: 'video',
-        src: 'assets/videos/19.mp4',
+        src: 'assets/videos/19.MP4',
         title: 'Seaside Gala',
         caption: 'You always wanted us to go here together, and we finally did. Another little memory with you. ❤️'
       },
       {
         id: 'forever-2',
         type: 'image',
-        src: 'assets/images/20.jpeg',
+        src: 'assets/images/20.JPEG',
         title: '',
         caption: 'Look at youuu, so pretty as always. 🥹'
       },
       {
         id: 'forever-3',
         type: 'image',
-        src: 'assets/images/21.jpeg',
+        src: 'assets/images/21.JPEG',
         title: '',
         caption: 'Sunkissed? HAHAHA. The sun really understood the assignment.'
       },
       {
         id: 'forever-4',
         type: 'image',
-        src: 'assets/images/22.jpeg',
+        src: 'assets/images/22.JPEG',
         title: '',
         caption: 'One of your favorite hobbies: window shopping. HAHAHA. I love walking around with you, though.'
       },
       {
         id: 'forever-5',
         type: 'image',
-        src: 'assets/images/28.jpeg',
+        src: 'assets/images/28.JPEG',
         title: '',
         caption: 'And of course, we can never go anywhere without taking pictures. HAHAHA.'
       },
       {
         id: 'forever-6',
         type: 'image',
-        src: 'assets/images/23.jpeg',
+        src: 'assets/images/23.JPEG',
         title: '',
         caption: 'You really love taking pictures of us, and I love that. Now we have all these little moments to look back on. ❤️'
       },
       {
         id: 'forever-7',
         type: 'image',
-        src: 'assets/images/24.jpeg',
+        src: 'assets/images/24.JPEG',
         title: 'Vikings Buffet',
         caption: 'Our first buffet together, on your birthday! More birthdays and food dates with you, please. 🥹'
       },
       {
         id: 'forever-8',
         type: 'image',
-        src: 'assets/images/25.jpeg',
+        src: 'assets/images/25.JPEG',
         title: '',
         caption: 'HAHAHA, it looks like we rented the whole bus! And btw, your hair looked so pretty here.'
       },
       {
         id: 'forever-9',
         type: 'image',
-        src: 'assets/images/26.jpeg',
+        src: 'assets/images/26.JPEG',
         title: 'Our All-Time Favorite Meal',
         caption: 'Jollibee with your pamangkin! Simple moments like this are always special to me.'
       },
       {
         id: 'forever-10',
         type: 'image',
-        src: 'assets/images/27.jpeg',
+        src: 'assets/images/27.JPEG',
         title: '',
         caption: 'You still look the same, though. Still the same beautiful girl I fell in love with. ❤️'
       },
       {
         id: 'forever-11',
         type: 'image',
-        src: 'assets/images/29.jpeg',
+        src: 'assets/images/29.JPEG',
         title: 'Photobooth at IT Park',
         caption: 'My first photobooth experience, and of course, it had to be with you. HAHAHA. ❤️'
       },
       {
         id: 'forever-12',
         type: 'image',
-        src: 'assets/images/30.jpeg',
+        src: 'assets/images/30.JPEG',
         title: '',
         caption: 'HAHAHA, I honestly didn\'t expect us to take this picture, but I\'m glad we did.'
       },
       {
         id: 'forever-13',
         type: 'image',
-        src: 'assets/images/31.jpeg',
+        src: 'assets/images/31.JPEG',
         title: '',
         caption: 'And here we are, another memory added to our little collection. I hope we never stop making more. ❤️'
       },

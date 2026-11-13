@@ -27,7 +27,7 @@ function demo(prefix, n, videoAt = -1) {
 const CONFIG = {
   /* Dev mode accepts 000000 / "demo" ONLY while the placeholders below are
      unchanged. Set to false before deploying. */
-  devMode: true,
+  devMode: false,
 
   pin: '010701',            // exactly six digits, e.g. '120425'
   password: 'svenn',
